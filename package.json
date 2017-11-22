@@ -10,7 +10,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node example/index.js"
   },
-  "keywords": ["coding", "webhook", "dingding", "机器人"],
+  "keywords": [
+    "coding",
+    "webhook",
+    "dingding",
+    "机器人"
+  ],
   "author": "ferryvip",
   "license": "MIT",
   "bugs": {
@@ -21,6 +26,7 @@
     "express": "^4.15.4"
   },
   "dependencies": {
+    "morgan": "^1.9.0",
     "request": "^2.81.0"
   },
   "repository": {
